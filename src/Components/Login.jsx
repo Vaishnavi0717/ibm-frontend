@@ -20,7 +20,7 @@ const LoginPage = () => {
     password:""
   });
   const LoginWithGoogle=()=>{
-   window.open("https://ibmloginwith-google.onrender.com/auth/google/callback","_self")
+   window.open("https://ibm-google-login.onrender.com/auth/google/callback","_self")
     }
   const handleInputChange=(e)=>{
     const { name, value } = e.target;

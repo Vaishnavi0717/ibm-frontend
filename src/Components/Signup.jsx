@@ -25,7 +25,7 @@ avatar:""
 // console.log(data)
     try {
       
-      const response = await axios.post("https://ibm-bug.onrender.com/user/register", data);
+      const response = await axios.post("https://ibm-bug-app.onrender.com/user/register", data);
 
       // const response = await dispatch(getRegister(data))
       // console.log(response)

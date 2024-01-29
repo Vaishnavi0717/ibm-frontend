@@ -1,7 +1,7 @@
 import axios from "axios"
 import { ERROR, LODING, LOGIN, POST_BUG, REGISTER } from "./actionType"
 
-const URL = "https://ibm-bug.onrender.com";
+const URL = "https://ibm-bug-app.onrender.com";
 
 
 export const getLogin = (obj) => (dispatch) => {
