@@ -120,7 +120,7 @@ avatar:""
           {errorMessage && <p style={{ color: 'red' }} className='m-2'>{errorMessage}</p>}
           <button
             type="submit"
-            className="w-full bg-pink-500 text-white p-2 rounded hover:bg-blue-600 focus:outline-none"
+            className="w-full bg-purple-500 text-white p-2 rounded hover:bg-gray-600 focus:outline-none"
           >
             Signup
           </button>
